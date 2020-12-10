@@ -39,6 +39,7 @@ HINT: Sherlock tells you the following information:
 public class DroneSafetyZone
 {
 	public static void main(String[] args) {
+	//Test fucntion
 		
 		
 	}
