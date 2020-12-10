@@ -61,12 +61,12 @@ var2.method2();
 //answer:Horse 2
 
 var3.method2();
-//answer:
-
+//answer:	Ponny 2
+//		Mammal 2
 var4.method2();
-//answer:
+//answer:	Horse 2
 
-var5.method2();
+var5.method2();	
 //answer:
 
 var6.method2();
