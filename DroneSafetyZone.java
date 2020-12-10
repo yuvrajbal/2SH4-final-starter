@@ -40,12 +40,29 @@ public class DroneSafetyZone
 {
 	public static void main(String[] args) {
 		
+		
 	}
 	
 	
 	public String SafteyAlert(MyCircle[] swarm){
-		
-		
+		for(int d=0;d<=swarm.length-1,d++){
+			for(int z=d+1;z<=swarm.length;z++){
+			
+			}
+				
+		}
+		public int Safety(MyCircle c1, MyCircle c2){
+			double rad1=c1.getRadius();
+			double rad2=c2.getRadius();
+			int x1=c1.getX();
+			int y1=c1.getY();
+			int x2=c2.getX();
+			int y2=c2.getY();
+			itn distance= (x1-x2)*(x1-x2)+(y1-y2)*(y1-y2);
+			double radiusSum= (rad1+rad2)*(rad1+rad2);
+			return distance==radiusSum?1:distance>radiusSum?-1:0;
+			
+		}
 		
 		
 		
