@@ -55,7 +55,7 @@ NOTE that this is a code snippet and not a complete java program; hence, you do 
 */
 
 var1.method2();
-//answer:
+//answer:Mammal 2
 
 var2.method2();
 //answer:
