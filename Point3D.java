@@ -55,7 +55,7 @@ public Point3D extends Point{
   }
  
   public double distanceTo( Point3D that){
-    double dis=Math.pow (getX()-that.x,2) + Math.pow(getY()-that.y,2)+ Math.pow(getZ()-that.z,2);
+    double dis=Math.pow (getX(),2) + Math.pow(getY(),2)+ Math.pow(getZ(),2);
     
     return Math.sqrt(dis);
   }
