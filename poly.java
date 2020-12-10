@@ -110,7 +110,8 @@ var4.method3();
 //answer:	error
 
 ((Ponny) var3).method3();
-//answer:	
+//answer:	error
 
 ((Ponny) var5).method3();
-//answer:
+//answer:	Mammal 2
+//		Mammal 3
