@@ -115,3 +115,6 @@ var4.method3();
 ((Ponny) var5).method3();
 //answer:	Mammal 2
 //		Mammal 3
+
+
+//final commit
