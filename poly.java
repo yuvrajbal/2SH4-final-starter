@@ -67,49 +67,50 @@ var4.method2();
 //answer:	Horse 2
 
 var5.method2();	
-//answer:
+//answer:	Mammal 2
 
 var6.method2();
-//answer:
+//answer:	Mammal 2
 
 var1.method3();
-//answer:
+//answer:	Mammal 2
+//		Mammal 3
 
 var2.method3();
-//answer:
+//answer:	error
 
 var3.method3();
-//answer:
+//answer:	error
 
 var4.method3();
-//answer:
+//answer:	error
 
 ((Ponny) var1).method1();
-//answer:
+//answer:	Ponny 1	
 
 ((Horse) var2).method1();
-//answer:
+//answer:	Horse 1
 
 ((Ponny) var3).method1();
-//answer:
+//answer:	Ponny 1
 
 ((Ponny) var4).method1();
-//answer:
+//answer:	Horse 1
 
 ((Horse) var4).method2();
-//answer:
-
+//answer:	Horse 2
+	
 ((Mammal) var5).method2();
-//answer:
+//answer:	Mammal 2
 
 ((Creature) var5).method3();
-//answer:
+//answer:	Mammal 3
 
 ((Horse) var2).method3();
-//answer:
+//answer:	error
 
 ((Ponny) var3).method3();
-//answer:
+//answer:	
 
 ((Ponny) var5).method3();
 //answer:
