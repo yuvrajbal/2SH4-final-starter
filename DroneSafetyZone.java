@@ -47,9 +47,16 @@ public class DroneSafetyZone
 	public String SafteyAlert(MyCircle[] swarm){
 		for(int d=0;d<=swarm.length-1,d++){
 			for(int z=d+1;z<=swarm.length;z++){
-			
-			}
-				
+				int answer=Safety(swarm[i],swarm[j]);
+				if (answer==0){
+				return "Red";}
+				else if(answer==1){
+					return "yellow";
+					}
+				}
+		}
+		else 
+			return "Green";
 		}
 		public int Safety(MyCircle c1, MyCircle c2){
 			double rad1=c1.getRadius();
