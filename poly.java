@@ -58,7 +58,7 @@ var1.method2();
 //answer:Mammal 2
 
 var2.method2();
-//answer:
+//answer:Horse 2
 
 var3.method2();
 //answer:
